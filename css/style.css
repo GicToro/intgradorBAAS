@@ -1,0 +1,117 @@
+.degradado {
+    background: black;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .degradado img {
+    opacity: 1;
+    transition: 0.5s opacity;
+  }
+  
+  .degradado .degradado-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .degradado:hover img {
+    opacity: 0.7;
+  }
+  
+  .centrado {
+    text-align: right;
+    padding: 0.5em;
+  }
+  
+  .textizq {
+    text-align: left;
+    padding: 0.5em;
+  }
+  
+  .textoder {
+    position: inherit;
+    left: 40%;
+    font-size: 1.5vw;
+  }
+  
+  .textoabajo {
+    position: relative;
+    bottom: -35%;
+  }
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .alineadoizq {
+    text-align: left;
+    padding: 0em;
+  }
+  .box{
+    background-color: #41464b;
+    color: #fff;
+}
+
+.fondo_gris{
+  background-color: rgb(44, 43, 43);
+  color:white;
+}
+
+.pantalla_divida{
+  display:flex;
+  height: 70vh;
+  margin-top:30px;
+}
+.secc1{
+  width: 50%;
+    background-image: url("../images/playa.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.secc2{
+  width: 50%;
+  height: 70vh;
+  background-color: rgb(44, 43, 43);
+  padding: 10px;
+  color:white;
+  font-size: 1rem;
+}
+
+
+.box_inner{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+  
+.btn-success{
+  background-color: rgb(37, 168, 66);  
+}
+  
+.info-conf{
+  background-color: rgb(53, 58, 64);
+  color: #fff;
+}
+
+.btn-enviar{
+  background-color: rgb(150, 201, 62);
+  color: #fff;
+}
+
+  
+  .pie {
+    background-color: #1c445a;
+  }
